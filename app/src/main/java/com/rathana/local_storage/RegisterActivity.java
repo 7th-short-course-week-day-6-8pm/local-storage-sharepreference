@@ -32,7 +32,6 @@ public class RegisterActivity extends AppCompatActivity {
             finish();
         });
 
-
         btnRegister.setOnClickListener(v->{
             User user = new User(
                     userName.getText().toString(),
